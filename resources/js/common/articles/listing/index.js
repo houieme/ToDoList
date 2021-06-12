@@ -1,9 +1,9 @@
-// libs
+// import libs
 import { connect } from 'react-redux'
 import Article from '../../../modules/article/Article'
 
-// components
-import Articles from '../../../modules/article/pages/list/Articles'
+// import components
+import Page from './Page'
 
 const mapStateToProps = state => {
   const {data, ...meta} = state.articles
@@ -14,4 +14,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps)(Articles)
+export default connect(mapStateToProps)(Page)

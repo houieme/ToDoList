@@ -89,7 +89,7 @@ class Page extends Component {
   
   render() {
     return <div className="col-sm-9 ml-sm-auto col-md-10 pt-3">
-      <h1>Create</h1>
+      <h1>Ajouter</h1>
       <Form {...this.state}
             onChange={this.handleChange}
             onSubmit={this.handleSubmit} />

@@ -11,8 +11,8 @@ export default function PrivateHeader({user, showNavigation, showDropdown, toggl
   return (
     <Collapse className="navbar-collapse" isOpen={ showNavigation }>
       <ul className="navbar-nav mr-auto">
-        <NavItem path="/">Home</NavItem>
-        <NavItem path="/articles">Articles</NavItem>
+     
+        <NavItem path="/articles">ToDo List</NavItem>
       </ul>
 
       <ul className="navbar-nav">

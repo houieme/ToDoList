@@ -112,7 +112,7 @@ class Page extends Component {
   
   render() {
     return <main className="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
-      <h1>Edit</h1>
+      <h1>Modifier</h1>
       { this.renderForm() }
     </main>
   }
